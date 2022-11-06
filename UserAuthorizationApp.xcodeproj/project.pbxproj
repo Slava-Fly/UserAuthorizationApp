@@ -13,6 +13,8 @@
 		CEE151092917D612007FCC8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE151072917D612007FCC8F /* Main.storyboard */; };
 		CEE1510B2917D614007FCC8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE1510A2917D614007FCC8F /* Assets.xcassets */; };
 		CEE1510E2917D614007FCC8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE1510C2917D614007FCC8F /* LaunchScreen.storyboard */; };
+		CEE151162917DACF007FCC8F /* UserGreetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE151152917DACF007FCC8F /* UserGreetingViewController.swift */; };
+		CEE1511929184BCB007FCC8F /* AuthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE1511829184BCB007FCC8F /* AuthData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CEE1510A2917D614007FCC8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEE1510D2917D614007FCC8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEE1510F2917D614007FCC8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE151152917DACF007FCC8F /* UserGreetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGreetingViewController.swift; sourceTree = "<group>"; };
+		CEE1511829184BCB007FCC8F /* AuthData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				CEE151012917D612007FCC8F /* AppDelegate.swift */,
 				CEE151032917D612007FCC8F /* SceneDelegate.swift */,
 				CEE151052917D612007FCC8F /* ViewController.swift */,
+				CEE151152917DACF007FCC8F /* UserGreetingViewController.swift */,
 				CEE151072917D612007FCC8F /* Main.storyboard */,
 				CEE1510A2917D614007FCC8F /* Assets.xcassets */,
 				CEE1510C2917D614007FCC8F /* LaunchScreen.storyboard */,
 				CEE1510F2917D614007FCC8F /* Info.plist */,
+				CEE1511829184BCB007FCC8F /* AuthData.swift */,
 			);
 			path = UserAuthorizationApp;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE151162917DACF007FCC8F /* UserGreetingViewController.swift in Sources */,
 				CEE151062917D612007FCC8F /* ViewController.swift in Sources */,
+				CEE1511929184BCB007FCC8F /* AuthData.swift in Sources */,
 				CEE151022917D612007FCC8F /* AppDelegate.swift in Sources */,
 				CEE151042917D612007FCC8F /* SceneDelegate.swift in Sources */,
 			);
