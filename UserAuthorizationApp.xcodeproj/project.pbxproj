@@ -7,27 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE1F555B291BF6F000293282 /* MyDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F555A291BF6F000293282 /* MyDataViewController.swift */; };
+		CE1F555D291BF73700293282 /* MyBiographyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F555C291BF73700293282 /* MyBiographyViewController.swift */; };
+		CE1F555F291C10DD00293282 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F555E291C10DD00293282 /* TabBarViewController.swift */; };
+		CE1F5563291C1BA700293282 /* DataOfSlava.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F5562291C1BA700293282 /* DataOfSlava.swift */; };
 		CEE151022917D612007FCC8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE151012917D612007FCC8F /* AppDelegate.swift */; };
 		CEE151042917D612007FCC8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE151032917D612007FCC8F /* SceneDelegate.swift */; };
-		CEE151062917D612007FCC8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE151052917D612007FCC8F /* ViewController.swift */; };
+		CEE151062917D612007FCC8F /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE151052917D612007FCC8F /* LogInViewController.swift */; };
 		CEE151092917D612007FCC8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE151072917D612007FCC8F /* Main.storyboard */; };
 		CEE1510B2917D614007FCC8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE1510A2917D614007FCC8F /* Assets.xcassets */; };
 		CEE1510E2917D614007FCC8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE1510C2917D614007FCC8F /* LaunchScreen.storyboard */; };
 		CEE151162917DACF007FCC8F /* UserGreetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE151152917DACF007FCC8F /* UserGreetingViewController.swift */; };
-		CEE1511929184BCB007FCC8F /* AuthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE1511829184BCB007FCC8F /* AuthData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE1F555A291BF6F000293282 /* MyDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDataViewController.swift; sourceTree = "<group>"; };
+		CE1F555C291BF73700293282 /* MyBiographyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBiographyViewController.swift; sourceTree = "<group>"; };
+		CE1F555E291C10DD00293282 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		CE1F5562291C1BA700293282 /* DataOfSlava.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataOfSlava.swift; sourceTree = "<group>"; };
 		CEE150FE2917D612007FCC8F /* UserAuthorizationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserAuthorizationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE151012917D612007FCC8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEE151032917D612007FCC8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CEE151052917D612007FCC8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEE151052917D612007FCC8F /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		CEE151082917D612007FCC8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEE1510A2917D614007FCC8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEE1510D2917D614007FCC8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEE1510F2917D614007FCC8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEE151152917DACF007FCC8F /* UserGreetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGreetingViewController.swift; sourceTree = "<group>"; };
-		CEE1511829184BCB007FCC8F /* AuthData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE1F5564291C1BC400293282 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE1F5562291C1BA700293282 /* DataOfSlava.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE5613F9291AA760004E39D2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CEE151012917D612007FCC8F /* AppDelegate.swift */,
+				CEE151032917D612007FCC8F /* SceneDelegate.swift */,
+				CEE1510F2917D614007FCC8F /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CE5613FA291AA771004E39D2 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEE151052917D612007FCC8F /* LogInViewController.swift */,
+				CEE151152917DACF007FCC8F /* UserGreetingViewController.swift */,
+				CE1F555A291BF6F000293282 /* MyDataViewController.swift */,
+				CE1F555C291BF73700293282 /* MyBiographyViewController.swift */,
+				CE1F555E291C10DD00293282 /* TabBarViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		CE5613FB291AA7E7004E39D2 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CEE151072917D612007FCC8F /* Main.storyboard */,
+				CEE1510C2917D614007FCC8F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		CE5613FC291AA7FB004E39D2 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				CEE1510A2917D614007FCC8F /* Assets.xcassets */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
 		CEE150F52917D612007FCC8F = {
 			isa = PBXGroup;
 			children = (
@@ -60,15 +113,11 @@
 		CEE151002917D612007FCC8F /* UserAuthorizationApp */ = {
 			isa = PBXGroup;
 			children = (
-				CEE151012917D612007FCC8F /* AppDelegate.swift */,
-				CEE151032917D612007FCC8F /* SceneDelegate.swift */,
-				CEE151052917D612007FCC8F /* ViewController.swift */,
-				CEE151152917DACF007FCC8F /* UserGreetingViewController.swift */,
-				CEE151072917D612007FCC8F /* Main.storyboard */,
-				CEE1510A2917D614007FCC8F /* Assets.xcassets */,
-				CEE1510C2917D614007FCC8F /* LaunchScreen.storyboard */,
-				CEE1510F2917D614007FCC8F /* Info.plist */,
-				CEE1511829184BCB007FCC8F /* AuthData.swift */,
+				CE5613F9291AA760004E39D2 /* App */,
+				CE1F5564291C1BC400293282 /* Models */,
+				CE5613FA291AA771004E39D2 /* View Controllers */,
+				CE5613FB291AA7E7004E39D2 /* Storyboard */,
+				CE5613FC291AA7FB004E39D2 /* Resourses */,
 			);
 			path = UserAuthorizationApp;
 			sourceTree = "<group>";
@@ -145,10 +194,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEE151162917DACF007FCC8F /* UserGreetingViewController.swift in Sources */,
-				CEE151062917D612007FCC8F /* ViewController.swift in Sources */,
-				CEE1511929184BCB007FCC8F /* AuthData.swift in Sources */,
+				CEE151062917D612007FCC8F /* LogInViewController.swift in Sources */,
 				CEE151022917D612007FCC8F /* AppDelegate.swift in Sources */,
 				CEE151042917D612007FCC8F /* SceneDelegate.swift in Sources */,
+				CE1F555F291C10DD00293282 /* TabBarViewController.swift in Sources */,
+				CE1F5563291C1BA700293282 /* DataOfSlava.swift in Sources */,
+				CE1F555D291BF73700293282 /* MyBiographyViewController.swift in Sources */,
+				CE1F555B291BF6F000293282 /* MyDataViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +350,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UserAuthorizationApp/Info.plist;
+				INFOPLIST_FILE = UserAuthorizationApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -325,7 +377,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UserAuthorizationApp/Info.plist;
+				INFOPLIST_FILE = UserAuthorizationApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
